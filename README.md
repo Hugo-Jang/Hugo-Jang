@@ -1,10 +1,8 @@
 <div align="center">
 
-# Hugo Jang
+# HUGO JANG
 
-**Software Developer · Building under Hagro**
-
-*Building ideas into reality through engineering and action.*
+**Software Developer**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Hugo--Jang-181717?style=flat&logo=github)](https://github.com/Hugo-Jang)
 [![Open Source](https://img.shields.io/badge/Focus-Open%20Source-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](https://github.com/Hugo-Jang)
@@ -13,11 +11,17 @@
 
 ---
 
+## HAGRO
+
+**Personal Brand · Engineering Philosophy**
+
+*Built with purpose. Driven by action.*
+
+HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
+
 ## About Me
 
 I'm a software developer building web, mobile, and Windows desktop applications.
-
-**Hagro** is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
 
 I'm currently building **Soleilbon**, an AI orchestration platform, while exploring multi-agent systems and developer automation.
 
@@ -42,10 +46,14 @@ I believe in turning ideas into practical, reliable software.
 
 <div align="center">
 
-### Well done is better than well said.
+### Principles
 
-*말보다 행동으로 증명하라.*
+**Well done is better than well said.**
 
 — Benjamin Franklin
+
+*Knowing is not enough; we must apply. Willing is not enough; we must do.*
+
+— Bruce Lee
 
 </div>
