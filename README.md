@@ -2,7 +2,9 @@
 
 # Hugo Jang
 
-**Software Developer · AI Systems Builder**
+**Software Developer · Building under Hagro**
+
+*Building ideas into reality through engineering and action.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Hugo--Jang-181717?style=flat&logo=github)](https://github.com/Hugo-Jang)
 [![Open Source](https://img.shields.io/badge/Focus-Open%20Source-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](https://github.com/Hugo-Jang)
@@ -15,9 +17,11 @@
 
 I'm a software developer building web, mobile, and Windows desktop applications.
 
-I'm currently exploring AI agents, multi-agent workflows, and orchestration systems.
+**Hagro** is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
 
-I value maintainable architecture, practical automation, and turning ideas into reliable software.
+I'm currently building **Soleilbon**, an AI orchestration platform, while exploring multi-agent systems and developer automation.
+
+I believe in turning ideas into practical, reliable software.
 
 ## Tech Stack
 
@@ -30,8 +34,8 @@ I value maintainable architecture, practical automation, and turning ideas into 
 ## Currently Exploring
 
 - AI orchestration systems
-- Multi-agent task planning, execution, and verification
-- Agent communication and workflow state management
+- Multi-agent architecture and coordination
+- Agent communication and workflow management
 - Developer tools and engineering automation
 
 ---
