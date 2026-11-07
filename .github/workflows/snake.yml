@@ -1,15 +1,8 @@
-name: Generate contribution snake
+name: Generate real contribution snake (manual)
 
+# 샘플 모드에서는 실제 기여 그래프를 자동 갱신하지 않는다.
 on:
-  schedule:
-    - cron: '17 19 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - README.md
-      - .github/workflows/snake.yml
-      - .github/scripts/prepare_snake.py
 
 permissions:
   contents: write

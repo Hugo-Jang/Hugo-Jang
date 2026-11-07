@@ -30,3 +30,11 @@ README는 GitHub가 지원하는 Markdown, HTML 표, `img`, `picture`만 사용�
 ## 물결 움직임 가시성 보완
 
 현재 배너는 `wave-banner-reference-motion-v2.svg`를 사용한다. 승인된 첫 프레임과 정적 보기, 색상·로고·글자·알파는 유지한다. 반복 주기를 18초에서 8초로 줄이고 후속 프레임의 곡선 변화량을 1.8배로 늘려 README 크기에서도 움직임을 알아볼 수 있게 했다. 새 파일명을 사용하여 이전 SVG 캐시와 구분한다. 채팅에 보여주는 PNG 비교 화면은 정적이므로 별도 GIF 미리보기로 실제 재생을 보여준다.
+
+## Snake 샘플 모드 — 사용자의 전환 요청까지 유지
+
+현재 README의 Snake는 `assets/snake-demo-light.svg`와 `assets/snake-demo-dark.svg`를 표시한다. 53×7칸 중 252칸을 여러 녹색 농도로 채운 장식용 샘플이다. 수치·날짜·커밋 횟수를 실제 기록으로 표시하지 않으며 이미지·대체 텍스트·README에 샘플임을 명시한다. GitHub의 실제 기여 그래프를 바꾸거나 활동을 만들기 위한 커밋을 추가하지 않는다.
+
+샘플은 `.github/scripts/generate_demo_snake.py`로 재생성한다. Python 표준 라이브러리만 사용하고 API·토큰·네트워크 요청은 없다. 고정된 난수 시드로 같은 패턴을 재현한다. 이 샘플의 경로·렌더러는 직접 작성한 SVG이며, 실기록용 Platane/snk 실행과 구분된다. 경로를 탐색하여 골드 Snake의 몸통 충돌을 피하고, 지나간 잔디 색을 비운다. 44.6초 주기로 되돌아온다. 라이트·다크 SVG와 정적 대안을 제공한다.
+
+사용자가 **“내 커밋과 연동해줘”**라고 요청하기 전에는 샘플 모드를 유지한다. 실제 기록 생성 워크플로는 수동 실행만 허용하도록 전환했다. 나중에 전환할 때 README의 이미지를 `output/github-snake-animated.svg` 및 `output/github-snake-dark-animated.svg`로 되돌리고, 정적 보기 링크·대체 텍스트·샘플 표시를 함께 바꾼다. 실제 기록용 `.github/workflows/snake.yml`의 기존 일일 일정과 push 트리거를 복원하고 실행 결과를 확인한다. 기존 실제 기록 생성 코드와 output 브랜치는 보존한다.
