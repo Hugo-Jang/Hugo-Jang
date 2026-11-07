@@ -57,7 +57,7 @@ assert route[0] == route[-1]
 assert set(eaten) == food
 assert all(abs(a[0] - b[0]) + abs(a[1] - b[1]) == 1 for a, b in zip(route, route[1:]))
 
-STEP = .10
+STEP = .19
 DURATION = (len(route) - 1) * STEP
 path_d = 'M' + 'L'.join(f'{24+x*16},{42+y*16}' for x, y in route)
 
@@ -75,7 +75,7 @@ def generate(dark, animated):
     segments = []
     if animated:
         for i in range(6, -1, -1):
-            size = 12 if i == 0 else 10.8
+            size = (13.2, 12.0, 10.8, 9.8, 8.8, 7.8, 6.8)[i]
             shape = f'<rect x="{-size/2:g}" y="{-size/2:g}" width="{size:g}" height="{size:g}" rx="3.5" fill="#FACC15"/>'
             if i == 0:
                 shape += '<circle cx="2.5" cy="-2.3" r="1.1" fill="#14263D"/><circle cx="2.5" cy="2.3" r="1.1" fill="#14263D"/>'
@@ -83,11 +83,10 @@ def generate(dark, animated):
     else:
         segments.append('<path d="M18 151H102" stroke="#FACC15" stroke-width="10" stroke-linecap="round"/>')
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="880" height="174" viewBox="0 0 880 174" role="img" aria-labelledby="title desc">
-<title id="title">HAGRO Snake — Demo contribution pattern</title>
-<desc id="desc">장식용 샘플 데이터입니다. 실제 GitHub 커밋 기록이나 기여 횟수를 나타내지 않습니다. 골드 뱀이 샘플 잔디를 먹고 지나갑니다.</desc>
+<title id="title">HAGRO Snake</title>
+<desc id="desc">골드 뱀이 초록색 잔디를 따라 움직이며 지나간 칸을 비우는 애니메이션입니다.</desc>
 <defs><path id="route" d="{path_d}"/></defs>
 <style>{''.join(css)}</style>
-<text x="18" y="16" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.3" fill="{muted}">DEMO PATTERN · SAMPLE DATA</text>
 {''.join(rects)}{''.join(segments)}
 <text x="18" y="165" font-family="Arial,sans-serif" font-size="10" fill="{muted}">HAGRO / IDEAS · ENGINEERING · ACTION</text>
 </svg>'''
@@ -99,7 +98,7 @@ for dark in (False, True):
     theme = 'dark' if dark else 'light'
     for animated in (True, False):
         suffix = '' if animated else '-static'
-        filename = OUT / f'snake-demo-{theme}{suffix}.svg'
+        filename = OUT / f'snake-{theme}{suffix}.svg'
         filename.write_text(generate(dark, animated))
         print(filename.name, filename.stat().st_size)
 print(f'Sample cells: {len(food)}/371; route: {len(route)}; loop: {DURATION:g}s')

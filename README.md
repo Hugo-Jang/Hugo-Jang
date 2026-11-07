@@ -79,13 +79,11 @@ My work spans frontend and backend development, software architecture, and syste
 ## 🐍 GitHub Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-demo-dark.svg" />
-  <img src="assets/snake-demo-light.svg" width="100%" alt="골드 Snake가 풍성한 샘플 잔디를 먹고 지나가는 데모 애니메이션. 실제 GitHub 기여 기록이 아닙니다." />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
+  <img src="assets/snake-light.svg" width="100%" alt="골드 Snake가 초록색 잔디를 먹고 지나가는 애니메이션" />
 </picture>
 
-<sub>Demo pattern · 장식용 샘플 그래프</sub>
-
-[Contribution profile](https://github.com/Hugo-Jang?tab=overview) · [Static view](assets/snake-demo-light-static.svg)
+[Contribution profile](https://github.com/Hugo-Jang?tab=overview) · [Static view](assets/snake-light-static.svg)
 
 <details>
 <summary>Principles</summary>
