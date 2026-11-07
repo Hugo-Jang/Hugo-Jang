@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="280" viewBox="0 0 320 280" role="img" aria-labelledby="title"><title id="title">HAGRO 색상의 일반화된 로봇 개발자가 노트북으로 타이핑하는 애니메이션</title><style>
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
+@keyframes typeleft{0%,50%,100%{transform:translateY(0)}25%,75%{transform:translateY(-2px)}}
+@keyframes typeright{0%,50%,100%{transform:translateY(-2px)}25%,75%{transform:translateY(0)}}
+@keyframes blink{0%,44%,48%,100%{opacity:1}46%{opacity:.1}}
+.breathe{animation:breathe 5s ease-in-out infinite}.eyes{animation:blink 5s linear infinite}
+.left-hand{animation:typeleft 1.2s ease-in-out infinite}.right-hand{animation:typeright 1.2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><linearGradient id="panel" x2="1" y2="1"><stop stop-color="#112738"/><stop offset="1" stop-color="#24465B"/></linearGradient></defs>
+<rect x="2" y="2" width="316" height="276" rx="22" fill="url(#panel)" stroke="#B89858" stroke-width="1.5"/>
+<circle cx="163" cy="128" r="87" fill="none" stroke="#426478" stroke-dasharray="3 9"/>
+<path d="M25 230L66 210L96 220M245 60L265 44L289 54" fill="none" stroke="#B89858" opacity=".5"/>
+<text x="23" y="30" fill="#D8C390" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">HAGRO / DEVELOPER</text>
+<g class="breathe">
+<path d="M99 202V168Q102 135 145 135H174Q216 135 220 168V202" fill="#0B1E30" stroke="#B89858" stroke-width="2"/>
+<path d="M133 140L159 159L184 140M159 159V183" fill="none" stroke="#426478" stroke-width="3"/>
+<rect x="125" y="66" width="72" height="73" rx="26" fill="#B89858"/>
+<rect x="117" y="90" width="8" height="25" rx="4" fill="#D8C390"/><rect x="197" y="90" width="8" height="25" rx="4" fill="#D8C390"/>
+<rect x="132" y="82" width="58" height="38" rx="14" fill="#0B1E30"/>
+<g class="eyes" fill="#F7F3EA"><rect x="145" y="96" width="6" height="9" rx="3"/><rect x="172" y="96" width="6" height="9" rx="3"/></g>
+<path d="M152 127H171" stroke="#112738" stroke-width="2" stroke-linecap="round"/>
+<path d="M160 65V53" stroke="#B89858" stroke-width="3"/><circle cx="160" cy="49" r="5" fill="#F7F3EA"/>
+</g>
+<g class="left-hand"><path d="M109 175L124 197L146 201" fill="none" stroke="#B89858" stroke-width="12" stroke-linecap="round"/></g>
+<g class="right-hand"><path d="M211 175L195 197L176 201" fill="none" stroke="#D8C390" stroke-width="12" stroke-linecap="round"/></g>
+<path d="M81 191H239L222 238H98Z" fill="#24465B" stroke="#B89858" stroke-width="2"/>
+<path d="M150 204V222M170 204V222M150 212H170" stroke="#D8C390" stroke-width="4"/>
+<path d="M71 239H249" stroke="#B89858" stroke-width="5" stroke-linecap="round"/>
+<text x="30" y="74" fill="#D8C390" font-family="monospace" font-size="18">&lt;/&gt;</text>
+<g class="cursor" fill="#D8C390"><rect x="261" y="112" width="27" height="3" rx="1"/><rect x="261" y="120" width="16" height="3" rx="1"/><rect x="281" y="120" width="3" height="9"/></g>
+<text x="160" y="263" text-anchor="middle" fill="#F7F3EA" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">IDEAS · ENGINEERING · ACTION</text></svg>

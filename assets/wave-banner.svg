@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title"><title id="title">HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering</title><defs><linearGradient id="navy"><stop stop-color="#0B1E30"/><stop offset="1" stop-color="#24465B"/></linearGradient></defs>
+<rect width="1000" height="240" rx="14" fill="url(#navy)"/>
+<g transform="translate(86 59)"><path d="M0 12H22V30H44V0H66V44Q34 35 0 55Z" fill="#B89858"/><path d="M0 55Q33 38 66 44V66H43V49Q32 51 22 55V66H0Z" fill="#F7F3EA"/></g>
+<g fill="#F7F3EA" font-family="Arial,Helvetica,sans-serif"><text x="188" y="100" font-size="51" font-weight="700" letter-spacing="3">HUGO JANG</text><text x="190" y="136" font-size="21">Software Developer · Full-Stack &amp; Systems Engineering</text></g>
+<path d="M440 160H550" stroke="#B89858" stroke-width="5" stroke-linecap="round"/>
+<path d="M0 181C230 166 371 275 647 209S868 161 1000 176V240H0Z" fill="#376579" opacity=".55"/>
+<path d="M0 220C232 138 417 274 679 222S874 164 1000 172V185C854 177 801 240 618 235S224 160 0 231Z" fill="#B89858"/>
+<path d="M0 238C200 166 384 246 586 235S863 190 1000 185V240H0Z" fill="#0B1E30"/>
+</svg>

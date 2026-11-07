@@ -1,50 +1,92 @@
-<div align="center">
+<p align="center">
+  <img src="assets/wave-banner.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
+</p>
 
-# HUGO JANG
+<!-- 저장소의 실제 소개·기술·브랜드 문구를 유지한 HAGRO 프로필. -->
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/developer-static.svg" />
+  <img align="right" src="assets/developer.svg" width="260" alt="네이비·골드 HAGRO 로봇 개발자가 노트북으로 타이핑하는 모습" />
+</picture>
 
-**Software Developer**
+## 👋 Hello, I'm HUGO JANG
 
-[![GitHub](https://img.shields.io/badge/GitHub-Hugo--Jang-181717?style=flat&logo=github)](https://github.com/Hugo-Jang)
-[![Open Source](https://img.shields.io/badge/Focus-Open%20Source-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](https://github.com/Hugo-Jang)
-
-</div>
-
----
-
-## HAGRO
-
-**Personal Brand · Engineering Philosophy**
-
-*Aim Higher. Build Better.*
-
-HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
-
-## About Me
+**Building software, systems, and AI orchestration.**
 
 I'm a software developer specializing in web, mobile, and Windows desktop applications.
 
 My work spans frontend and backend development, software architecture, and system integration.
 
-## Tech Stack
+**Full-Stack Development · Systems Engineering · AI Orchestration**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Hugo--Jang-112738?style=flat&logo=github&logoColor=white)](https://github.com/Hugo-Jang)
+[![Open Source](https://img.shields.io/badge/Focus-Open%20Source-112738?style=flat&logo=opensourceinitiative&logoColor=B89858)](https://github.com/Hugo-Jang)
+
+<br clear="all" />
+
+---
+
+## 👤 About Me
+
+<img align="right" src="assets/higher-ground.svg" width="225" alt="Higher Ground를 상징하는 골드 능선과 정상의 깃발" />
+
+- Building practical, reliable, and maintainable software
+- Working across frontend, backend, and system integration
+- Developing web, mobile, and Windows desktop applications
+- Exploring AI orchestration and engineering automation
+
+<br clear="all" />
+
+## 🧩 Tech Stack
+
+| Area | Technologies |
+| :--- | :--- |
+| Languages | Java · JavaScript · TypeScript · VB.NET |
+| Frontend & Mobile | React · Flutter · HTML · CSS |
+| Backend & Database | Node.js · PostgreSQL |
+| Tools | Git · GitHub |
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,flutter,html,css,postgres,git,github" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,flutter,html,css,postgres,git,github&amp;perline=6" width="290" alt="Java, JavaScript, TypeScript, React, Node.js, Flutter, HTML, CSS, PostgreSQL, Git, GitHub" />
 </p>
 
 **Also working with:** VB.NET and Windows desktop application development.
 
-## Currently Exploring
-
-- AI orchestration systems
-- Multi-agent architecture and coordination
-- Agent communication and workflow management
-- Developer tools and engineering automation
-
 ---
 
-<div align="center">
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h2>🎯 Technical Interests</h2>
+      <ul>
+        <li>AI orchestration systems</li>
+        <li>Multi-agent architecture and coordination</li>
+        <li>Agent communication and workflow management</li>
+        <li>Developer tools and engineering automation</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <h2>HAGRO</h2>
+      <img src="assets/hagro-wordmark.svg" width="220" alt="HAGRO — Higher Ground" />
+      <p><strong>Personal Brand · Engineering Philosophy</strong></p>
+      <p><em>Aim Higher. Build Better.</em></p>
+      <p>HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.</p>
+    </td>
+  </tr>
+</table>
 
-### Principles
+## 🐍 GitHub Contributions
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-dark-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-static.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake.svg" width="100%" alt="Hugo-Jang의 최근 1년 GitHub 기여 기록을 따라 움직이는 골드 옐로 Snake" />
+</picture>
+
+[Contribution profile](https://github.com/Hugo-Jang?tab=overview) · [Static view](https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-static.svg)
+
+<details>
+<summary>Principles</summary>
 
 **Well done is better than well said.**
 
@@ -54,4 +96,6 @@ My work spans frontend and backend development, software architecture, and syste
 
 — Bruce Lee
 
-</div>
+</details>
+
+<!-- 디자인 출처·접근성·에셋 유지보수: assets/README.md -->
