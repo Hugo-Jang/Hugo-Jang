@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="assets/wave-banner.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
+  <img src="assets/wave-banner-animated.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
 </p>
+
+<p align="center"><a href="assets/wave-banner-static.svg">배너 정적 보기</a></p>
 
 <!-- 저장소의 실제 소개·기술·브랜드 문구를 유지한 HAGRO 프로필. -->
 <picture>
@@ -77,10 +79,8 @@ My work spans frontend and backend development, software architecture, and syste
 ## 🐍 GitHub Contributions
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-dark-static.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-static.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake.svg" width="100%" alt="Hugo-Jang의 최근 1년 GitHub 기여 기록을 따라 움직이는 골드 옐로 Snake" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-dark-animated.svg" />
+  <img src="https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-animated.svg" width="100%" alt="Hugo-Jang의 최근 1년 GitHub 기여 기록을 따라 움직이는 골드 옐로 Snake" />
 </picture>
 
 [Contribution profile](https://github.com/Hugo-Jang?tab=overview) · [Static view](https://raw.githubusercontent.com/Hugo-Jang/Hugo-Jang/output/github-snake-static.svg)

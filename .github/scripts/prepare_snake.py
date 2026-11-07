@@ -6,6 +6,8 @@ ns = '{http://www.w3.org/2000/svg}'
 for filename in ('github-snake.svg', 'github-snake-dark.svg'):
     path = Path('dist') / filename
     text = path.read_text()
+    # 이미 후처리된 파일을 다시 검사해도 이전 정지 규칙이 남지 않게 한다.
+    text = text.replace('<style>@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>', '')
     ET.fromstring(text)
     # snk는 빈 기여 캘린더에서 1프레임만 생성한다. 기록을 추가하지 않고
     # 빈 그리드 둘레만 순회하게 하여 애니메이션의 동작을 유지한다.
@@ -21,10 +23,9 @@ for filename in ('github-snake.svg', 'github-snake-dark.svg'):
             + '</style>'
         )
         text = text.replace('</svg>', empty_motion + '</svg>')
-    # SVG 이미지 내부에서도 시스템의 움직임 최소화 설정을 존중한다.
-    reduced = '<style>@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>'
-    text = text.replace('</svg>', reduced + '</svg>')
+    # 사용자가 요청한 기본 애니메이션. 정적 대안은 별도 링크로 제공한다.
     path.write_text(text)
+    (path.parent / filename.replace('.svg', '-animated.svg')).write_text(text)
     static = text.replace('</svg>', '<style>*{animation:none!important}</style></svg>')
     (path.parent / filename.replace('.svg', '-static.svg')).write_text(static)
     for version in (text, static):

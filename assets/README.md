@@ -14,3 +14,9 @@
 Snake는 매일 04:17 JST/KST 또는 README 변경 시 갱신한다. Actions의 **Generate contribution snake**에서 수동 실행할 수도 있다. 사용자 지정 토큰은 필요 없으며 해당 작업의 `GITHUB_TOKEN`만 사용한다. `contents: write`는 생성 이미지를 게시하기 위해 필요하다. 원격 브랜치를 강제로 덮어쓰지 않는다.
 
 README는 GitHub가 지원하는 Markdown, HTML 표, `img`, `picture`만 사용한다. 배경색과 임의 CSS를 본문에 적용할 수 없으므로 본문은 GitHub의 테마를 따른다. 배너·로고·캐릭터의 배경은 에셋 내부에 포함한다. 스크립트, 외부 폰트, 외부 SVG 참조는 없다. 애니메이션은 SVG의 CSS로 구동하며 정적 파일 링크도 제공한다.
+
+## 애니메이션 수정
+
+`wave-banner-animated.svg`는 공식 [capsule-render](https://github.com/kyechan99/capsule-render)의 `type=waving` API 출력에 기반한다. 배너 그라데이션은 `#0B1E30` → `#24465B`, 글자는 `#F7F3EA`이며 HAGRO 심볼·골드 선을 덧붙이고 파형의 불투명도를 조절했다. 두 물결의 20초 SMIL 반복을 유지한다. 원본 출력의 텍스트에 포함된 `&`는 유효한 XML이 되도록 이스케이프했다. 라이선스는 `capsule-render-LICENSE.txt`에 보관한다. 이전 `wave-banner.svg`는 최초의 정적 시안으로 보관한다.
+
+사용자가 움직임을 명시적으로 요청했으므로 배너와 Snake는 기본으로 재생한다. README에서 시스템의 움직임 줄이기 설정으로 이 두 이미지를 정적 이미지로 바꾸지 않는다. 각각 별도 정적 보기 링크를 제공한다. 아바타의 기존 움직임 최소화 지원은 유지한다. Snake의 `-animated.svg` 파일명은 이전 정적 이미지 캐시와 구분하기 위해 사용한다.
