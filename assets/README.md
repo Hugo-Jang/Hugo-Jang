@@ -20,3 +20,9 @@ README는 GitHub가 지원하는 Markdown, HTML 표, `img`, `picture`만 사용�
 `wave-banner-animated.svg`는 공식 [capsule-render](https://github.com/kyechan99/capsule-render)의 `type=waving` API 출력에 기반한다. 배너 그라데이션은 `#0B1E30` → `#24465B`, 글자는 `#F7F3EA`이며 HAGRO 심볼·골드 선을 덧붙이고 파형의 불투명도를 조절했다. 두 물결의 20초 SMIL 반복을 유지한다. 원본 출력의 텍스트에 포함된 `&`는 유효한 XML이 되도록 이스케이프했다. 라이선스는 `capsule-render-LICENSE.txt`에 보관한다. 이전 `wave-banner.svg`는 최초의 정적 시안으로 보관한다.
 
 사용자가 움직임을 명시적으로 요청했으므로 배너와 Snake는 기본으로 재생한다. README에서 시스템의 움직임 줄이기 설정으로 이 두 이미지를 정적 이미지로 바꾸지 않는다. 각각 별도 정적 보기 링크를 제공한다. 아바타의 기존 움직임 최소화 지원은 유지한다. Snake의 `-animated.svg` 파일명은 이전 정적 이미지 캐시와 구분하기 위해 사용한다.
+
+## 기준 이미지에 맞춘 반투명 배너
+
+현재 README는 `wave-banner-reference-animated.svg`를 사용한다. 사용자가 최종 지정한 배너의 짙은 네이비·청록빛 물결과 골드 곡선, H 심볼·타이포 배치를 새 SVG로 재구성했다. 이미지 생성 모델로 다시 그린 결과물이 아니라 편집 가능한 벡터 근사 재현이다. 상단 배경은 불투명, 청록 물결은 불투명도 0.78, 물결 밖은 알파 0으로 처리한다. 골드 띠는 중앙에서 약해지며 좌우에서 선명하게 보인다. GitHub의 라이트·다크 배경을 바꾸지 않고 실제 이미지 투명도로 합성한다.
+
+세 곡선은 같은 18초 SMIL 주기로 부드럽게 변형되어 이음새가 벌어지지 않는다. 이름·설명·로고는 고정된다. 정적 대안은 `wave-banner-reference-static.svg`이며 동일한 첫 프레임과 투명도를 사용한다. 외부 폰트·스크립트·SVG 리소스 요청은 없다. 이전 capsule-render 배너 파일과 라이선스는 보관한다.

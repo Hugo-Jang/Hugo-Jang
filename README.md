@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/wave-banner-animated.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
+  <img src="assets/wave-banner-reference-animated.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
 </p>
 
-<p align="center"><a href="assets/wave-banner-static.svg">배너 정적 보기</a></p>
+<p align="center"><a href="assets/wave-banner-reference-static.svg">배너 정적 보기</a></p>
 
 <!-- 저장소의 실제 소개·기술·브랜드 문구를 유지한 HAGRO 프로필. -->
 <picture>

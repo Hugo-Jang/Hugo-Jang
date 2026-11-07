@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="286" viewBox="0 0 1200 286" role="img" aria-labelledby="title desc">
+<title id="title">HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering</title>
+<desc id="desc">기준 이미지의 네이비 배경과 골드 띠, 배경색이 비치는 반투명 청록 물결. 애니메이션 없는 정적 보기입니다.</desc>
+<defs>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2=".45"><stop stop-color="#001B2D"/><stop offset=".62" stop-color="#002137"/><stop offset="1" stop-color="#06465A"/></linearGradient>
+ <linearGradient id="water"><stop stop-color="#164459"/><stop offset=".48" stop-color="#0C4056"/><stop offset="1" stop-color="#39AEBB"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#AF8D4E"/><stop offset=".2" stop-color="#E6CB86"/><stop offset=".48" stop-color="#AF8D4E" stop-opacity=".12"/><stop offset=".68" stop-color="#AF8D4E" stop-opacity=".03"/><stop offset="1" stop-color="#E3C57C"/></linearGradient>
+ <linearGradient id="logo-gold"><stop stop-color="#AF8D4E"/><stop offset="1" stop-color="#BC984F"/></linearGradient>
+ <clipPath id="corners"><rect width="1200" height="286" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#corners)">
+<path id="navy-field" d="M0 0H1200V198C1080 163 1025 199 915 237C800 280 700 284 590 267C390 239 242 156 0 160Z" fill="url(#navy)" ></path>
+<path id="water-wave" d="M0 160C242 156 390 239 590 267C700 284 800 280 915 237C1025 199 1080 163 1200 198L1200 211C1058 214 951 269 800 282C669 298 592 281 480 258C270 216 160 205 0 245Z" fill="url(#water)" opacity=".78"></path>
+<path id="gold-ribbon" d="M0 231C170 185 280 228 480 258C680 292 805 294 990 246C1085 221 1138 193 1200 198L1200 211C1086 210 1034 238 990 248C805 295 680 293 480 260C280 232 170 193 0 249Z" fill="url(#gold)" ></path>
+<g transform="translate(245 59)">
+ <path d="M0 18H33V42H66V0H100V61C70 54 39 60 0 78Z" fill="url(#logo-gold)"/>
+ <path d="M0 82C12 78 21 76 33 75V96H0ZM66 69C78 64 89 62 100 64V96H66Z" fill="#F7F3EA"/>
+</g>
+<g fill="#F7F3EA" font-family="Arial,Helvetica,sans-serif">
+ <text x="397" y="113" font-size="78" font-weight="700" letter-spacing="3">HUGO JANG</text>
+ <text x="400" y="158" font-size="27">Software Developer · Full-Stack &amp; Systems Engineering</text>
+</g>
+<rect x="598" y="188" width="150" height="9" rx="4.5" fill="#AF8D4E"/>
+</g>
+</svg>
