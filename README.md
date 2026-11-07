@@ -15,17 +15,15 @@
 
 **Personal Brand · Engineering Philosophy**
 
-*Built with purpose. Driven by action.*
+*Aim Higher. Build Better.*
 
 HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
 
 ## About Me
 
-I'm a software developer building web, mobile, and Windows desktop applications.
+I'm a software developer specializing in web, mobile, and Windows desktop applications.
 
-I'm currently building **Soleilbon**, an AI orchestration platform, while exploring multi-agent systems and developer automation.
-
-I believe in turning ideas into practical, reliable software.
+My work spans frontend and backend development, software architecture, and system integration.
 
 ## Tech Stack
 
