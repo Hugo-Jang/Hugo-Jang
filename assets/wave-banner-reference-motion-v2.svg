@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="286" viewBox="0 0 1200 286" role="img" aria-labelledby="title desc">
+<title id="title">HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering</title>
+<desc id="desc">기준 이미지의 네이비 배경과 골드 띠, 배경색이 비치는 반투명 청록 물결. 물결은 8초 주기로 부드럽게 반복됩니다.</desc>
+<defs>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2=".45"><stop stop-color="#001B2D"/><stop offset=".62" stop-color="#002137"/><stop offset="1" stop-color="#06465A"/></linearGradient>
+ <linearGradient id="water"><stop stop-color="#164459"/><stop offset=".48" stop-color="#0C4056"/><stop offset="1" stop-color="#39AEBB"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#AF8D4E"/><stop offset=".2" stop-color="#E6CB86"/><stop offset=".48" stop-color="#AF8D4E" stop-opacity=".12"/><stop offset=".68" stop-color="#AF8D4E" stop-opacity=".03"/><stop offset="1" stop-color="#E3C57C"/></linearGradient>
+ <linearGradient id="logo-gold"><stop stop-color="#AF8D4E"/><stop offset="1" stop-color="#BC984F"/></linearGradient>
+ <clipPath id="corners"><rect width="1200" height="286" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#corners)">
+<path id="navy-field" d="M0 0H1200V198C1080 163 1025 199 915 237C800 280 700 284 590 267C390 239 242 156 0 160Z" fill="url(#navy)" ><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 0H1200V198C1080 163 1025 199 915 237C800 280 700 284 590 267C390 239 242 156 0 160Z;M0 0H1200V210.6C1080 200.8 1025 164.8 915 213.6C800 263.8 700 291.2 590 277.8C390 251.6 242 179.4 0 179.8Z;M0 0H1200V190.8C1080 168.4 1025 215.2 915 253.2C800 287.2 700 267.8 590 254.4C390 226.4 242 141.6 0 152.8Z;M0 0H1200V198C1080 163 1025 199 915 237C800 280 700 284 590 267C390 239 242 156 0 160Z" keyTimes="0;0.333333;0.666667;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/></path>
+<path id="water-wave" d="M0 160C242 156 390 239 590 267C700 284 800 280 915 237C1025 199 1080 163 1200 198L1200 211C1058 214 951 269 800 282C669 298 592 281 480 258C270 216 160 205 0 245Z" fill="url(#water)" opacity=".78"><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 160C242 156 390 239 590 267C700 284 800 280 915 237C1025 199 1080 163 1200 198L1200 211C1058 214 951 269 800 282C669 298 592 281 480 258C270 216 160 205 0 245Z;M0 179.8C242 179.4 390 251.6 590 277.8C700 291.2 800 263.8 915 213.6C1025 164.8 1080 200.8 1200 210.6L1200 223.6C1058 244.6 951 252.8 800 276.6C669 287.2 592 293.6 480 270.6C270 232.2 160 223 0 255.8Z;M0 152.8C242 141.6 390 226.4 590 254.4C700 267.8 800 287.2 915 253.2C1025 215.2 1080 168.4 1200 190.8L1200 203.8C1058 208.6 951 281.6 800 287.4C669 294.4 592 268.4 480 245.4C270 201.6 160 197.8 0 236Z;M0 160C242 156 390 239 590 267C700 284 800 280 915 237C1025 199 1080 163 1200 198L1200 211C1058 214 951 269 800 282C669 298 592 281 480 258C270 216 160 205 0 245Z" keyTimes="0;0.333333;0.666667;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/></path>
+<path id="gold-ribbon" d="M0 231C170 185 280 228 480 258C680 292 805 294 990 246C1085 221 1138 193 1200 198L1200 211C1086 210 1034 238 990 248C805 295 680 293 480 260C280 232 170 193 0 249Z" fill="url(#gold)" ><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 231C170 185 280 228 480 258C680 292 805 294 990 246C1085 221 1138 193 1200 198L1200 211C1086 210 1034 238 990 248C805 295 680 293 480 260C280 232 170 193 0 249Z;M0 243.6C170 204.8 280 244.2 480 270.6C680 301 805 277.8 990 228C1085 203 1138 205.6 1200 210.6L1200 223.6C1086 222.6 1034 220 990 230C805 280.6 680 303.8 480 272.6C280 248.2 170 212.8 0 261.6Z;M0 222C170 177.8 280 213.6 480 245.4C680 279.4 805 304.8 990 258.6C1085 230 1138 185.8 1200 190.8L1200 203.8C1086 204.6 1034 250.6 990 260.6C805 307.6 680 282.2 480 247.4C280 217.6 170 185.8 0 240Z;M0 231C170 185 280 228 480 258C680 292 805 294 990 246C1085 221 1138 193 1200 198L1200 211C1086 210 1034 238 990 248C805 295 680 293 480 260C280 232 170 193 0 249Z" keyTimes="0;0.333333;0.666667;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1"/></path>
+<g transform="translate(245 59)">
+ <path d="M0 18H33V42H66V0H100V61C70 54 39 60 0 78Z" fill="url(#logo-gold)"/>
+ <path d="M0 82C12 78 21 76 33 75V96H0ZM66 69C78 64 89 62 100 64V96H66Z" fill="#F7F3EA"/>
+</g>
+<g fill="#F7F3EA" font-family="Arial,Helvetica,sans-serif">
+ <text x="397" y="113" font-size="78" font-weight="700" letter-spacing="3">HUGO JANG</text>
+ <text x="400" y="158" font-size="27">Software Developer · Full-Stack &amp; Systems Engineering</text>
+</g>
+<rect x="598" y="188" width="150" height="9" rx="4.5" fill="#AF8D4E"/>
+</g>
+</svg>

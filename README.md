@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/wave-banner-reference-animated.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
+  <img src="assets/wave-banner-reference-motion-v2.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
 </p>
 
 <p align="center"><a href="assets/wave-banner-reference-static.svg">배너 정적 보기</a></p>
