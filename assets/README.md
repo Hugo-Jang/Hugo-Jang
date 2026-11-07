@@ -7,6 +7,7 @@
 - `higher-ground.svg`: 직접 작성한 정적 능선 그림.
 - 외부 기술 아이콘: 기존 README의 [Skill Icons](https://github.com/tandpfun/skill-icons) 유지. 기술명은 본문 표에도 제공하여 이미지 실패 시에도 읽을 수 있음.
 - Snake: [Platane/snk](https://github.com/Platane/snk), MIT 라이선스. 실행 버전을 커밋으로 고정. 실제 기여 캘린더에서 생성하고 `output` 브랜치에 게시. 녹색 기본 팔레트와 `#FACC15` 뱀을 사용.
+- 기여 캘린더가 비어 있을 때에는 기록을 채우지 않고 뱀이 빈 그리드 둘레를 천천히 순회한다. 기여가 조회되면 snk의 기본 경로를 그대로 사용한다.
 
 ## 유지보수
 
