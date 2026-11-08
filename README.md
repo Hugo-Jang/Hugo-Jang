@@ -51,7 +51,8 @@ I develop applications across frontend and backend, and integrate them with data
 
 *Aim Higher. Build Better.*
 
-HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
+HAGRO is my personal brand,<br />
+representing my pursuit of higher ground through ideas, engineering, and action.
 
 <br clear="all" />
 
