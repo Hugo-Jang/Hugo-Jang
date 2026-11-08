@@ -54,3 +54,9 @@ README는 GitHub가 지원하는 Markdown, HTML 표, `img`, `picture`만 사용�
 ## HAGRO 소개 영역의 로고 교체
 
 현재 README의 HAGRO 소개 영역은 사용자가 제공한 `07-dark-background.png` 원본을 `hagro-wordmark-dark.png`로 저장하여 표시한다. 2172×724px, 854,598바이트 PNG이며 재인코딩·자르기·색상 변경 없이 보관한다. 표시 너비 220px와 HAGRO 소개 영역의 배치를 유지한다. 기존 `hagro-wordmark.svg`는 보관하지만 README에서는 참조하지 않는다.
+
+## MySQL 추가 및 로고 모서리
+
+Tech Stack의 기존 Java와 Java 아이콘을 유지하고 MySQL을 표와 Skill Icons 목록에 추가했다. Supabase는 사용자가 직접 사용해 본 뒤 추가하기로 하여 현재는 표시하지 않는다.
+
+HAGRO 소개 영역은 `hagro-wordmark-dark-rounded.svg`를 표시한다. 원본 PNG를 데이터로 내장하고, 2172×724 뷰박스의 모서리 반경을 48px로 클리핑한다. 표시 너비 220px에서 약 4.86px의 부드러운 모서리가 된다. 로고 원본의 픽셀·색상·배치 및 표시 너비는 유지하며 외부 이미지 요청은 없다. 기존 원본 PNG도 보관한다.

@@ -44,11 +44,11 @@ My work spans frontend and backend development, software architecture, and syste
 | :--- | :--- |
 | Languages | Java · JavaScript · TypeScript · VB.NET |
 | Frontend & Mobile | React · Flutter · HTML · CSS |
-| Backend & Database | Node.js · PostgreSQL |
+| Backend & Database | Node.js · MySQL · PostgreSQL |
 | Tools | Git · GitHub |
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,flutter,html,css,postgres,git,github&amp;perline=6" width="290" alt="Java, JavaScript, TypeScript, React, Node.js, Flutter, HTML, CSS, PostgreSQL, Git, GitHub" />
+  <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,flutter,html,css,mysql,postgres,git,github&amp;perline=6" width="290" alt="Java, JavaScript, TypeScript, React, Node.js, Flutter, HTML, CSS, MySQL, PostgreSQL, Git, GitHub" />
 </p>
 
 **Also working with:** VB.NET and Windows desktop application development.
@@ -68,7 +68,7 @@ My work spans frontend and backend development, software architecture, and syste
     </td>
     <td valign="top" width="50%">
       <h2>HAGRO</h2>
-      <img src="assets/hagro-wordmark-dark.png" width="220" alt="HAGRO — Higher Ground" />
+      <img src="assets/hagro-wordmark-dark-rounded.svg" width="220" alt="HAGRO — Higher Ground" />
       <p><strong>Personal Brand · Engineering Philosophy</strong></p>
       <p><em>Aim Higher. Build Better.</em></p>
       <p>HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.</p>
