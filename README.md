@@ -68,7 +68,7 @@ My work spans frontend and backend development, software architecture, and syste
     </td>
     <td valign="top" width="50%">
       <h2>HAGRO</h2>
-      <img src="assets/hagro-wordmark.svg" width="220" alt="HAGRO — Higher Ground" />
+      <img src="assets/hagro-wordmark-dark.png" width="220" alt="HAGRO — Higher Ground" />
       <p><strong>Personal Brand · Engineering Philosophy</strong></p>
       <p><em>Aim Higher. Build Better.</em></p>
       <p>HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.</p>

@@ -50,3 +50,7 @@ README는 GitHub가 지원하는 Markdown, HTML 표, `img`, `picture`만 사용�
 ## 로고 정리 2× 캐릭터 GIF
 
 현재 캐릭터는 사용자가 제공한 `HAGRO_18frames_character_only_motion_logo_cleaned_2x.gif` 원본을 `hagro-character-logo-cleaned-2x.gif`로 저장하여 표시한다. 610×610px, 18프레임, 3.96초 무한 반복, 1,560,678바이트다. 원본 바이트를 재인코딩하지 않고 그대로 사용한다. 오른쪽 정렬과 표시 너비 260px는 유지한다. 움직임 줄이기 설정에서는 같은 GIF의 첫 프레임인 `hagro-character-logo-cleaned-2x-static.png`를 표시한다. 이전 캐릭터 파일은 보관한다.
+
+## HAGRO 소개 영역의 로고 교체
+
+현재 README의 HAGRO 소개 영역은 사용자가 제공한 `07-dark-background.png` 원본을 `hagro-wordmark-dark.png`로 저장하여 표시한다. 2172×724px, 854,598바이트 PNG이며 재인코딩·자르기·색상 변경 없이 보관한다. 표시 너비 220px와 HAGRO 소개 영역의 배치를 유지한다. 기존 `hagro-wordmark.svg`는 보관하지만 README에서는 참조하지 않는다.
