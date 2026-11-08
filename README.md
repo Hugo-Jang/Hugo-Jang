@@ -6,8 +6,8 @@
 
 <!-- 저장소의 실제 소개·기술·브랜드 문구를 유지한 HAGRO 프로필. -->
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/developer-static.svg" />
-  <img align="right" src="assets/developer.svg" width="260" alt="네이비·골드 HAGRO 로봇 개발자가 노트북으로 타이핑하는 모습" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hagro-character-static.png" />
+  <img align="right" src="assets/hagro-character.gif" width="260" alt="노트북으로 작업하는 HAGRO 개발자 캐릭터 애니메이션" />
 </picture>
 
 ## 👋 Hello, I'm HUGO JANG
