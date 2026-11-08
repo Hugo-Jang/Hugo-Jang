@@ -83,8 +83,6 @@ My work spans frontend and backend development, software architecture, and syste
   <img src="assets/snake-light.svg" width="100%" alt="골드 Snake가 초록색 잔디를 먹고 지나가는 애니메이션" />
 </picture>
 
-[Contribution profile](https://github.com/Hugo-Jang?tab=overview) · [Static view](assets/snake-light-static.svg)
-
 <details>
 <summary>Principles</summary>
 
