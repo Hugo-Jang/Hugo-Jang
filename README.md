@@ -2,8 +2,6 @@
   <img src="assets/wave-banner-reference-motion-v2.svg" width="100%" alt="HUGO JANG — Software Developer · Full-Stack &amp; Systems Engineering" />
 </p>
 
-
-
 <!-- 저장소의 실제 소개·기술·브랜드 문구를 유지한 HAGRO 프로필. -->
 ## 👋 Hello, I'm HUGO JANG
 
@@ -12,16 +10,9 @@
   <img align="right" src="assets/hagro-character-logo-cleaned-2x.gif" width="260" alt="노트북으로 작업하는 HAGRO 개발자 캐릭터 애니메이션" />
 </picture>
 
-**Building software, systems, and AI orchestration.**
+**Web · Mobile · Windows Desktop**
 
-I'm a software developer specializing in web, mobile, and Windows desktop applications.
-
-My work spans frontend and backend development, software architecture, and system integration.
-
-**Full-Stack Development · Systems Engineering · AI Orchestration**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Hugo--Jang-112738?style=flat&logo=github&logoColor=white)](https://github.com/Hugo-Jang)
-[![Open Source](https://img.shields.io/badge/Focus-Open%20Source-112738?style=flat&logo=opensourceinitiative&logoColor=B89858)](https://github.com/Hugo-Jang)
+I develop applications across frontend and backend, and integrate them with databases and existing systems.
 
 <br clear="all" />
 
@@ -31,10 +22,9 @@ My work spans frontend and backend development, software architecture, and syste
 
 <img align="right" src="assets/higher-ground.svg" width="225" alt="Higher Ground를 상징하는 골드 능선과 정상의 깃발" />
 
-- Building practical, reliable, and maintainable software
-- Working across frontend, backend, and system integration
-- Developing web, mobile, and Windows desktop applications
-- Exploring AI orchestration and engineering automation
+- Practical solutions with reliability and maintainability in mind
+- Continuous improvement through hands-on development
+- Exploring AI orchestration and workflow automation
 
 <br clear="all" />
 
@@ -51,30 +41,19 @@ My work spans frontend and backend development, software architecture, and syste
   <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,flutter,html,css,mysql,postgres,git,github&amp;perline=6" width="290" alt="Java, JavaScript, TypeScript, React, Node.js, Flutter, HTML, CSS, MySQL, PostgreSQL, Git, GitHub" />
 </p>
 
-**Also working with:** VB.NET and Windows desktop application development.
-
 ---
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <h2>🎯 Technical Interests</h2>
-      <ul>
-        <li>AI orchestration systems</li>
-        <li>Multi-agent architecture and coordination</li>
-        <li>Agent communication and workflow management</li>
-        <li>Developer tools and engineering automation</li>
-      </ul>
-    </td>
-    <td valign="top" width="50%">
-      <h2>HAGRO</h2>
-      <img src="assets/hagro-wordmark-dark-rounded.svg" width="220" alt="HAGRO — Higher Ground" />
-      <p><strong>Personal Brand · Engineering Philosophy</strong></p>
-      <p><em>Aim Higher. Build Better.</em></p>
-      <p>HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.</p>
-    </td>
-  </tr>
-</table>
+## HAGRO
+
+<img align="right" src="assets/hagro-wordmark-dark-rounded.svg" width="220" alt="HAGRO — Higher Ground" />
+
+**Personal Brand · Engineering Philosophy**
+
+*Aim Higher. Build Better.*
+
+HAGRO is my personal brand, representing my pursuit of higher ground through ideas, engineering, and action.
+
+<br clear="all" />
 
 ## 🐍 GitHub Snake
 
@@ -83,17 +62,16 @@ My work spans frontend and backend development, software architecture, and syste
   <img src="assets/snake-light.svg" width="100%" alt="골드 Snake가 초록색 잔디를 먹고 지나가는 애니메이션" />
 </picture>
 
-<details>
-<summary>Principles</summary>
+---
 
-**Well done is better than well said.**
+### Principles
 
-— Benjamin Franklin
+> **Well done is better than well said.**
+>
+> — Benjamin Franklin
 
-*Knowing is not enough; we must apply. Willing is not enough; we must do.*
-
-— Bruce Lee
-
-</details>
+> *Knowing is not enough; we must apply. Willing is not enough; we must do.*
+>
+> — Bruce Lee
 
 <!-- 디자인 출처·접근성·에셋 유지보수: assets/README.md -->
