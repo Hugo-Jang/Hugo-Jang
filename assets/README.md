@@ -46,3 +46,7 @@ README는 GitHub가 지원하는 Markdown, HTML 표, `img`, `picture`만 사용�
 ## 사용자 제공 캐릭터 GIF로 교체
 
 소개글 오른쪽 캐릭터는 사용자가 첨부한 `HAGRO_18frames_character_only_motion.gif`를 `hagro-character.gif`로 저장하여 표시한다. 305×305px, 18프레임, 총 3.96초, 무한 반복이며 원본 724,404바이트를 변형 없이 보관한다. README 표시 너비는 기존 260px를 유지한다. `hagro-character-static.png`는 같은 GIF의 첫 프레임을 추출한 정적 대안이며 시스템의 움직임 줄이기 설정에서 사용한다. 기존 로봇 SVG는 보관하지만 README에서는 참조하지 않는다.
+
+## 로고 정리 2× 캐릭터 GIF
+
+현재 캐릭터는 사용자가 제공한 `HAGRO_18frames_character_only_motion_logo_cleaned_2x.gif` 원본을 `hagro-character-logo-cleaned-2x.gif`로 저장하여 표시한다. 610×610px, 18프레임, 3.96초 무한 반복, 1,560,678바이트다. 원본 바이트를 재인코딩하지 않고 그대로 사용한다. 오른쪽 정렬과 표시 너비 260px는 유지한다. 움직임 줄이기 설정에서는 같은 GIF의 첫 프레임인 `hagro-character-logo-cleaned-2x-static.png`를 표시한다. 이전 캐릭터 파일은 보관한다.
